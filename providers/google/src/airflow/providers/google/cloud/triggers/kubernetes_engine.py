@@ -76,6 +76,7 @@ class GKEStartPodTrigger(KubernetesPodTrigger):
     """
 
     def __init__(
+        log_events_on_startup,
         self,
         pod_name: str,
         pod_namespace: str,
